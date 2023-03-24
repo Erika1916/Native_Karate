@@ -3,8 +3,8 @@ function fn() {
 
 
   var config = {
-    name : "Ulrich",
-    baseUrl : 'https://pesa-backend-production.up.railway.app',
+    name : "Hamman",
+    baseUrl : 'https://pesa-backend-production-2.up.railway.app',
     authorization: ''
   }
 
