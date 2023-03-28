@@ -5,33 +5,19 @@ Feature: WALLET API Demo
     * url  baseUrl
     * header Content-type = 'application/json'
     * header Authorization = authorization
-    * def requestData = read("datas/create.json")
-    * def updateWallet = read("datas/update.json")
-    * def walletId = "64230347657461aff079139c"
+    * def requestUser = read("datas/create.json")
 
-  @777
-  Scenario Outline: Create a wallet
+  @Post777
+  Scenario Outline: Create wallet to PESA Solutions
     Given path '/api/v1/wallet'
     And request { "user":<user_id>, "gestionnaire":<gestionnaire_id>,"isActive":<isActive>}
     When method POST
     Then status 201
     And print response
-    * def walletId = response._id
-    And print walletId
     Examples:
-      |requestData  |
+      |requestUser  |
 
-  @777
-  Scenario Outline: update a specific wallet
-    Given path '/api/v1/wallet/'+walletId
-    And request { "user":<user>, "gestionnaire":<gestionnaire>,"isActive":<isActive>,"product":<product>,"quantity":<quantity>}
-    When method PATCH
-    Then status 201
-    And print response
-    Examples:
-      |updateWallet  |
-
-  @777
+  @Delete777
   Scenario: Delete a wallet
     Given path '/api/v1/wallet/6422c162657461aff0791372'
     When method DELETE
@@ -39,17 +25,17 @@ Feature: WALLET API Demo
     And status 200
     And print responseStatus
 
-  @777
-    Scenario: GET all wallets
-      Given path '/api/v1/wallet'
-      When method GET
-      Then print response
-      And status 200
-      And match response[0].initial_value == 0
-      And match response[0]._id != null
-      And print responseStatus
+  @Get777
+  Scenario: GET all wallets
+    Given path '/api/v1/wallet'
+    When method GET
+    Then print response
+    And status 200
+    And match response[0].initial_value == 0
+    And match response[0]._id != null
+    And print responseStatus
 
-  @777
+  @Get777
   Scenario: GET wallet BY ID
     Given path '/api/v1/wallet/63df5c36ad437ea9f60e8034'
     When method GET
@@ -60,7 +46,7 @@ Feature: WALLET API Demo
     And assert response.length != null
     And print responseStatus
 
-  @777
+  @Get777
   Scenario: GET wallet BY UserID
     Given path '/api/v1/wallet/user/641b15358b679aadf33bf43e'
     When method GET

@@ -1,0 +1,21 @@
+[
+  {
+    "user": "user id",
+    "gestionnaire": "user id",
+    "isActive": "true",
+    "product": "product id",
+    "quantity": "number"
+  },
+  {
+    "user": "user id",
+    "gestionnaire": "user id",
+    "isActive": true,
+    "product": "product id",
+    "quantity": "number"
+  }
+
+
+
+
+
+]

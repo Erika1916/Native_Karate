@@ -1,28 +1,17 @@
 [
   {
-  "first_name": "Tesfa",
-  "last_name": "Zara",
-  "email": "tesf6@gmail.com",
-  "phone": "696894199",
-  "birth_day": "1999-05-09",
-  "password": 362014,
-  "role": ["User"],
-  "isActive": true,
-  "isEmailConfirmed": false,
-  "isCreatedByAdmin": true
+  "user_id": "63df5c36ad437ea9f60e8034",
+  "gestionnaire_id": "63df5c36ad437ea9f60e8034",
+  "isActive": true
+
 },
   {
-    "first_name": "Tesy",
-    "last_name": "Zara",
-    "email": "tesf7@gmail.com",
-    "phone": "696894199",
-    "birth_day": "1999-05-09",
-    "password": 362014,
-    "role": ["User"],
-    "isActive": true,
-    "isEmailConfirmed": false,
-    "isCreatedByAdmin": true
+    "user_id": "63df5c36ad437ea9f60e8034",
+    "gestionnaire_id": "63df5c36ad437ea9f60e8034",
+    "isActive": true
+
   }
+
 
 
 
