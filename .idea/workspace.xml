@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71e312ff-fad6-454a-adee-dd9fe08e7cab" name="Changes" comment="debut automatisation">
-      <change afterPath="$PROJECT_DIR$/src/test/java/karate/datas/update.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/karate/user.feature" afterDir="false" />
+    <list default="true" id="71e312ff-fad6-454a-adee-dd9fe08e7cab" name="Changes" comment="debut automatisation1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/karate/datas/create.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/karate/datas/create.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/karate/user.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/karate/user.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/karate/wallet.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/karate/wallet.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +55,7 @@
       <recent name="C:\Users\Pawk70\Desktop\AUTOMATION\PAWK\Pawk\KARATE\native_Karate\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: wallet">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Login user to PESA Solutions">
     <configuration name="Feature: wallet" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/karate/wallet.feature" />
@@ -77,15 +75,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Create a wallet" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: GET USER BY UserID" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/karate/wallet.feature" />
       <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="native_Karate" />
-      <option name="NAME_FILTER" value="^Create a wallet$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Create a wallet$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Create a wallet" />
+      <option name="NAME_FILTER" value="^GET USER BY UserID$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^GET USER BY UserID$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: GET USER BY UserID" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -97,15 +95,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Create wallet to PESA Solutions" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: GET all users" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/karate/wallet.feature" />
       <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="native_Karate" />
-      <option name="NAME_FILTER" value="^Create wallet to PESA Solutions$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Create wallet to PESA Solutions$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Create wallet to PESA Solutions" />
+      <option name="NAME_FILTER" value="^GET all users$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^GET all users$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: GET all users" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -117,15 +115,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Delete a wallet" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Login user to PESA Solutions" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/karate/wallet.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/karate/login.feature" />
       <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="native_Karate" />
-      <option name="NAME_FILTER" value="^Delete a wallet$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Delete a wallet$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Delete a wallet" />
+      <option name="NAME_FILTER" value="^Login user to PESA Solutions$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Login user to PESA Solutions$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Login user to PESA Solutions" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -159,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Login user to PESA Solutions" />
+        <item itemvalue="Cucumber Java.Scenario: GET all users" />
+        <item itemvalue="Cucumber Java.Scenario: GET USER BY UserID" />
         <item itemvalue="Cucumber Java.Feature: wallet" />
         <item itemvalue="Cucumber Java.Scenario: update a specific wallet" />
-        <item itemvalue="Cucumber Java.Scenario: Create a wallet" />
-        <item itemvalue="Cucumber Java.Scenario: Delete a wallet" />
-        <item itemvalue="Cucumber Java.Scenario: Create wallet to PESA Solutions" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +178,7 @@
       <workItem from="1679665527637" duration="7232000" />
       <workItem from="1679915902246" duration="1253000" />
       <workItem from="1679989505842" duration="8536000" />
-      <workItem from="1680011567227" duration="6714000" />
+      <workItem from="1680011567227" duration="8958000" />
     </task>
     <task id="LOCAL-00001" summary="mvn clean install">
       <created>1679671924683</created>
@@ -196,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679996169941</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="debut automatisation1">
+      <created>1680021077581</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680021077581</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,6 +221,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="mvn clean install" />
     <MESSAGE value="debut automatisation" />
-    <option name="LAST_COMMIT_MESSAGE" value="debut automatisation" />
+    <MESSAGE value="debut automatisation1" />
+    <option name="LAST_COMMIT_MESSAGE" value="debut automatisation1" />
   </component>
 </project>

@@ -9,7 +9,7 @@ Feature: WALLET API Demo
     * def updateWallet = read("datas/update.json")
     * def walletId = "64230347657461aff079139c"
 
-  @777
+  @wallet
   Scenario Outline: Create a wallet
     Given path '/api/v1/wallet'
     And request { "user":<user_id>, "gestionnaire":<gestionnaire_id>,"isActive":<isActive>}
@@ -21,7 +21,7 @@ Feature: WALLET API Demo
     Examples:
       |requestData  |
 
-  @777
+  @wallet
   Scenario Outline: update a specific wallet
     Given path '/api/v1/wallet/'+walletId
     And request { "user":<user>, "gestionnaire":<gestionnaire>,"isActive":<isActive>,"product":<product>,"quantity":<quantity>}
@@ -31,7 +31,7 @@ Feature: WALLET API Demo
     Examples:
       |updateWallet  |
 
-  @777
+  @wallet
   Scenario: Delete a wallet
     Given path '/api/v1/wallet/6422c162657461aff0791372'
     When method DELETE
@@ -39,7 +39,7 @@ Feature: WALLET API Demo
     And status 200
     And print responseStatus
 
-  @777
+  @wallet
     Scenario: GET all wallets
       Given path '/api/v1/wallet'
       When method GET
@@ -49,7 +49,7 @@ Feature: WALLET API Demo
       And match response[0]._id != null
       And print responseStatus
 
-  @777
+  @wallet
   Scenario: GET wallet BY ID
     Given path '/api/v1/wallet/63df5c36ad437ea9f60e8034'
     When method GET
@@ -60,7 +60,7 @@ Feature: WALLET API Demo
     And assert response.length != null
     And print responseStatus
 
-  @777
+  @wallet
   Scenario: GET wallet BY UserID
     Given path '/api/v1/wallet/user/641b15358b679aadf33bf43e'
     When method GET
@@ -72,11 +72,20 @@ Feature: WALLET API Demo
 
 
 
-  @Get01
+  @user
   Scenario: GET all users
     Given path '/api/v1/user'
     When method GET
     Then print response
     And status 200
     And match response[0].last_name != null
+    And print responseStatus
+
+  @user
+  Scenario: GET USER BY UserID
+    Given path '/api/v1/user/641c70438b679aadf33bf5bf'
+    When method GET
+    Then print response
+    And status 200
+    And match response._id == "641c70438b679aadf33bf5bf"
     And print responseStatus
