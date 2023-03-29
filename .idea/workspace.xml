@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71e312ff-fad6-454a-adee-dd9fe08e7cab" name="Changes" comment="final">
+    <list default="true" id="71e312ff-fad6-454a-adee-dd9fe08e7cab" name="Changes" comment="final2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
     </list>
@@ -178,7 +178,7 @@
       <workItem from="1679665527637" duration="7232000" />
       <workItem from="1679915902246" duration="1253000" />
       <workItem from="1679989505842" duration="8536000" />
-      <workItem from="1680011567227" duration="14934000" />
+      <workItem from="1680011567227" duration="15720000" />
     </task>
     <task id="LOCAL-00001" summary="mvn clean install">
       <created>1679671924683</created>
@@ -222,7 +222,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680099249698</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="final1">
+      <created>1680099866601</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1680099866601</updated>
+    </task>
+    <task id="LOCAL-00008" summary="final2">
+      <created>1680100069420</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1680100069420</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,6 +259,8 @@
     <MESSAGE value="debut automatisation1" />
     <MESSAGE value="semi final" />
     <MESSAGE value="final" />
-    <option name="LAST_COMMIT_MESSAGE" value="final" />
+    <MESSAGE value="final1" />
+    <MESSAGE value="final2" />
+    <option name="LAST_COMMIT_MESSAGE" value="final2" />
   </component>
 </project>

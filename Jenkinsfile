@@ -47,8 +47,7 @@ pipeline {
         stage('Testing') {
             steps {
                 catchError(buildResult: 'FAILURE', stageResult: 'FAILURE'){
-                bat "mvn clean install"
-                bat "mvn test '-Dkarate.options=--tags ${TAGS} classpath:karate' "}
+                bat "mvn clean test \"-Dkarate.options=--tags ${TAGS} classpath:karate\" "}
             }
         }
 
