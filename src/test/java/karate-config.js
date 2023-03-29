@@ -5,7 +5,7 @@ function fn() {
   var config = {
     name : "Hamman",
     baseUrl : 'https://pesa-backend-production-2.up.railway.app',
-    authorization: ''
+    authorization: 'Erika'
   }
 
   var result = karate.callSingle('login.feature', config);

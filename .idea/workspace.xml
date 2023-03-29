@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71e312ff-fad6-454a-adee-dd9fe08e7cab" name="Changes" comment="debut automatisation1">
+    <list default="true" id="71e312ff-fad6-454a-adee-dd9fe08e7cab" name="Changes" comment="semi final">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/karate/user.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/karate/user.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/karate/wallet.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/karate/wallet.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/karate-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/karate-config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +177,7 @@
       <workItem from="1679665527637" duration="7232000" />
       <workItem from="1679915902246" duration="1253000" />
       <workItem from="1679989505842" duration="8536000" />
-      <workItem from="1680011567227" duration="8958000" />
+      <workItem from="1680011567227" duration="12717000" />
     </task>
     <task id="LOCAL-00001" summary="mvn clean install">
       <created>1679671924683</created>
@@ -201,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680021077581</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="semi final">
+      <created>1680083444601</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680083444601</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,6 +228,7 @@
     <MESSAGE value="mvn clean install" />
     <MESSAGE value="debut automatisation" />
     <MESSAGE value="debut automatisation1" />
-    <option name="LAST_COMMIT_MESSAGE" value="debut automatisation1" />
+    <MESSAGE value="semi final" />
+    <option name="LAST_COMMIT_MESSAGE" value="semi final" />
   </component>
 </project>
