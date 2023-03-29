@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71e312ff-fad6-454a-adee-dd9fe08e7cab" name="Changes" comment="final2">
+    <list default="true" id="71e312ff-fad6-454a-adee-dd9fe08e7cab" name="Changes" comment="final4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
     </list>
@@ -178,7 +178,7 @@
       <workItem from="1679665527637" duration="7232000" />
       <workItem from="1679915902246" duration="1253000" />
       <workItem from="1679989505842" duration="8536000" />
-      <workItem from="1680011567227" duration="15720000" />
+      <workItem from="1680011567227" duration="16168000" />
     </task>
     <task id="LOCAL-00001" summary="mvn clean install">
       <created>1679671924683</created>
@@ -236,7 +236,28 @@
       <option name="project" value="LOCAL" />
       <updated>1680100069420</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="final3">
+      <created>1680100653594</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1680100653594</updated>
+    </task>
+    <task id="LOCAL-00010" summary="final4">
+      <created>1680100860004</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1680100860004</updated>
+    </task>
+    <task id="LOCAL-00011" summary="final4">
+      <created>1680100996099</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1680100996099</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,6 +282,8 @@
     <MESSAGE value="final" />
     <MESSAGE value="final1" />
     <MESSAGE value="final2" />
-    <option name="LAST_COMMIT_MESSAGE" value="final2" />
+    <MESSAGE value="final3" />
+    <MESSAGE value="final4" />
+    <option name="LAST_COMMIT_MESSAGE" value="final4" />
   </component>
 </project>
