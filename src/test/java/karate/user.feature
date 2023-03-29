@@ -1,4 +1,4 @@
-@UserAPIs
+@UserAPIs@all
 Feature: WALLET API Demo
 
   Background:

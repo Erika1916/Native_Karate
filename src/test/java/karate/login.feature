@@ -1,4 +1,4 @@
-@Login
+@Login@all
 Feature: User Login
 
 
