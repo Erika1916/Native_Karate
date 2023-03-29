@@ -51,6 +51,15 @@ pipeline {
             }
         }
 
+        stage('Report') {
+            steps {
+                catchError(buildResult: 'FAILURE', stageResult: 'FAILURE'){
+                    publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: false, reportDir: '${WORKSPACE}\\target\\karate-reports', reportFiles: 'karate-summary.html', reportName: 'HTML Report', reportTitles: '', useWrapperFileDirectly: true])
+
+            }
+        }
+
+
 }
 
     // post {
