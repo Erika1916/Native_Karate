@@ -1,0 +1,20 @@
+{
+  "designation": "POLAPALM Update",
+  "transmitter": "POLAPALM",
+  "maturity": "3 année(s)",
+  "value_initial": 33000,
+  "value_liquidity": 49500,
+  "perfomance_hebdo": 0.3,
+  "rate_of_return": 0,
+  "Annual_rate": 9,
+  "quantity": 20,
+  "Annual_return": 9,
+  "liquidity_frequency": "mensuel",
+  "subscription_deadline_date": "2023-03-30T23:00:00.000Z",
+  "value_date": "2023-03-22T23:00:00.000Z",
+  "type": "action",
+  "isActive": true,
+  "createdAt": "2023-03-22T18:50:52.022Z",
+  "updatedAt": "2023-03-22T18:52:38.324Z",
+  "__v": 0
+}

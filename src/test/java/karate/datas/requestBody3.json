@@ -1,0 +1,14 @@
+{
+  "first_name": "aliyah",
+  "last_name": "Nti",
+  "email": "erika.edzoapk37@gmail.com",
+  "phone": "695552370",
+  "birth_day": "2023-03-29",
+  "password": 123456,
+  "role": [
+    "#string"
+  ],
+  "isActive": true,
+  "isEmailConfirmed": true,
+  "isCreatedByAdmin": true
+}

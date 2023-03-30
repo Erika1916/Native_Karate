@@ -1,5 +1,5 @@
 @Login@all
-Feature: User Login
+Feature: POST API Pesa login
 
 
   Background:
