@@ -5,7 +5,7 @@ Feature: User API
     * url  baseUrl
     * header Content-type = 'application/json'
     * header Authorization = authorization
-    * def requestBody = read("datas/test_api/data/user.json")
+    * def requestBody = read("datas/test_api/user.json")
 
 
   @user
