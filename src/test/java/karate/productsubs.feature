@@ -1,4 +1,4 @@
-@all
+@productsubAPIs @all
 Feature: Products Subscription
 
   Background:

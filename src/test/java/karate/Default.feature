@@ -1,4 +1,4 @@
-@all
+@Default @all
 Feature: API PESA Default
 
   Background:

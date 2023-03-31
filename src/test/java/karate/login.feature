@@ -1,4 +1,4 @@
-@Login@all
+@Login @all
 Feature: POST API Pesa login
 
 

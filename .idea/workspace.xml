@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71e312ff-fad6-454a-adee-dd9fe08e7cab" name="Changes" comment="final7">
-      <change afterPath="$PROJECT_DIR$/src/test/java/karate/Default.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/karate/product.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/karate/productsubs.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="71e312ff-fad6-454a-adee-dd9fe08e7cab" name="Changes" comment="fusion">
+      <change beforePath="$PROJECT_DIR$/src/test/java/karate/Default.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/karate/Default.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/karate/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/karate/login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/karate/user.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/karate/user.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/karate/productsubs.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/karate/productsubs.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +185,7 @@
       <workItem from="1679915902246" duration="1253000" />
       <workItem from="1679989505842" duration="8536000" />
       <workItem from="1680011567227" duration="18910000" />
-      <workItem from="1680182972432" duration="6185000" />
+      <workItem from="1680182972432" duration="6585000" />
     </task>
     <task id="LOCAL-00001" summary="mvn clean install">
       <created>1679671924683</created>
@@ -295,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680101822549</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="fusion">
+      <created>1680189868976</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1680189868976</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,6 +329,7 @@
     <MESSAGE value="final5" />
     <MESSAGE value="final6" />
     <MESSAGE value="final7" />
-    <option name="LAST_COMMIT_MESSAGE" value="final7" />
+    <MESSAGE value="fusion" />
+    <option name="LAST_COMMIT_MESSAGE" value="fusion" />
   </component>
 </project>
